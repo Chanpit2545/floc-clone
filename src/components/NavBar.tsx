@@ -1,0 +1,26 @@
+export function NavBar() {
+  return (
+    <header className="flex justify-between px-8 py-4 items-center shadow-sm sticky top-0 bg-white z-10">
+      <div>
+        <a href="">
+          <img
+            src="https://assets.floc.is/general/floc-full-logo-no-tm.svg"
+            alt="floc"
+            className="w-[108px] h-[32px]"
+          />
+        </a>
+      </div>
+      <div className="flex gap-4 font-bold text-lg">
+        <button className="rounded-3xl bg-white text-blue-800 px-8 py-2.5 hover:bg-blue-200 active:bg-blue-300 transition-colors">
+          Login
+        </button>
+        <button className="border border-black rounded-3xl bg-black text-white px-8 py-2.5 hover:bg-blue-800 transition-colors">
+          Register
+        </button>
+        <button className="border border-gray-200 text-black rounded-3xl px-5 py-2.5 hover:border-blue-700 active:bg-blue-200 active:text-blue-800 transition-colors">
+          US ENG
+        </button>
+      </div>
+    </header>
+  );
+}
