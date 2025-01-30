@@ -18,7 +18,7 @@ export function Job() {
                   </p>
                   <p>
                     <span className="bg-gray-200 text-gray-600 px-0.5">
-                      DDD/MM/YYYY - DD/MM/YYYY
+                      DD/MM/YYYY - DD/MM/YYYY
                     </span>
                   </p>
                 </div>
