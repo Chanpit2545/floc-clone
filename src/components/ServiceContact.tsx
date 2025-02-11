@@ -18,11 +18,11 @@ export function ServiceContact() {
         </div>
       </div>
 
-      <div className="absolute right-4 top-12 w-[728px] h-[443px]">
+      <div className="absolute right-2 top-1/2 transform -translate-y-1/2 xl:w-[728px] xl:h-[443px] lg:w-3/5 lg:h-3/5">
         <img
           src="https://assets.floc.is/landing/dicut.png"
           alt="Floc Team"
-          className="w-full h-full object-contain px-10"
+          className=" object-contain px-10 w-full h-full"
         />
       </div>
     </div>

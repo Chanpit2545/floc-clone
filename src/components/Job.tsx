@@ -3,8 +3,8 @@ import Marquee from "react-fast-marquee";
 export function Job() {
   return (
     <div className="bg-gray-100">
-      <div className="grid mt-24 mb-8 mx-16 grid-cols-2">
-        <div className="col-span-1 flex items-center justify-center">
+      <div className="grid mt-24 mb-8 mx-16 xl:grid-cols-2 lg:grid-cols-7">
+        <div className="flex items-center justify-center xl:col-span-1 lg:col-span-2">
           <Marquee autoFill gradient gradientWidth={85} direction="left">
             <div className="flex flex-col rounded-xl bg-white w-[370px] h-[220px] shadow-lg mx-4">
               <div className="flex flex-col flex-1 justify-between px-4 pt-4 pb-2">
@@ -48,7 +48,7 @@ export function Job() {
             </div>
           </Marquee>
         </div>
-        <div className="col-span-1 pl-24">
+        <div className=" pl-24 xl:col-span-1 lg:col-span-5">
           <div className="flex font-bold text-4xl gap-4">
             Talent finds the right{" "}
             <span className="relative text-blue-700">

@@ -22,7 +22,7 @@ export function LandingBody() {
           <img
             src="https://floc.is/images/landing/banner/flocco.svg"
             alt="Blue Bird"
-            className="absolute top-80 left-0 w-auto h-auto"
+            className="absolute  w-1/4 h-1/4 xl:-top-52 xl:left-0 lg:-top-80 lg:-left-16 "
           />
         </div>
         <p>

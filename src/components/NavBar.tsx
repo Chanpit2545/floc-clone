@@ -11,6 +11,9 @@ export function NavBar() {
         </a>
       </div>
       <div className="flex gap-4 font-bold text-lg">
+        <button className="text-blue-800 rounded-3xl px-5 py-2.5 hover:bg-blue-200 active:bg-blue-300 transition-colors">
+          For business
+        </button>
         <button className="rounded-3xl bg-white text-blue-800 px-8 py-2.5 hover:bg-blue-200 active:bg-blue-300 transition-colors">
           Login
         </button>

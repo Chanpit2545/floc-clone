@@ -5,7 +5,7 @@ export function FocusedPosition() {
         <div>At Floc, we bring together</div>
         <div>the best of these positions</div>
       </div>
-      <div className="flex justify-between gap-5">
+      <div className="flex flex-wrap justify-center gap-5">
         <button className="border border-blue-800 bg-blue-800 rounded-full px-4 py-1.5 font-medium text-yellow-200">
           Strategy & Creative
         </button>

@@ -6,12 +6,12 @@ import Marquee from "react-fast-marquee";
 export function Community() {
   return (
     <div className="bg-gray-100 pt-16 pb-24 px-12 space-y-12">
-      <div className="flex justify-center gap-32">
+      <div className="flex justify-center xl:gap-32 lg:gap-4">
         <div>
           <img
             src="https://floc.is/_next/image?url=https%3A%2F%2Fassets.floc.is%2Flanding%2Fcommunity%2Fdicut.jpeg&w=1200&q=75"
             alt="community picture"
-            className="w-[596px] h-[450px"
+            className="w-[596px]"
           />
         </div>
         <div className="justify-items-center text-center space-y-6">

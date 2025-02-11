@@ -2,15 +2,15 @@ import Marquee from "react-fast-marquee";
 
 export function Talent() {
   return (
-    <div className="grid mt-64 mb-8 mx-16 grid-cols-2">
-      <div className="col-span-1">
+    <div className="grid mt-64 mb-8 mx-16 xl:grid-cols-2 lg:grid-cols-3">
+      <div className="xl:col-span-1 lg:col-span-2">
         <div className="flex font-bold text-4xl gap-4">
           Hirer meets the right{" "}
           <span className="relative text-blue-700">
             <img
               src="https://floc.is/icons/landing/hirer-find-talent/talent-underline.svg"
               alt="Talent yellow line"
-              className="absolute -z-10 left-0 -bottom-6 w-full h-full"
+              className="absolute -z-10 left-0 w-full h-full xl:-bottom-6 lg:-bottom-6"
             />
             Talents
           </span>
