@@ -1,7 +1,7 @@
 export function FocusedPosition() {
   return (
     <div className="py-16 space-y-12 justify-items-center">
-      <div className="space-y-2 font-bold text-5xl tracking-lg">
+      <div className="space-y-2 font-bold text-3xl md:text-5xl tracking-wide md:tracking-lg text-center">
         <div>At Floc, we bring together</div>
         <div>the best of these positions</div>
       </div>

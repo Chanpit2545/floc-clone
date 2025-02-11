@@ -13,10 +13,10 @@ export function LandingFooter() {
           <img
             src="https://floc.is/_next/image?url=https%3A%2F%2Fassets.floc.is%2Flanding%2Fportfolio%2Fchatchai.webp&w=384&q=75"
             alt="random image"
-            className="rounded-xl mx-6 transition-all duration-300 group-hover:brightness-50"
+            className="rounded-xl mx-6 transition-all duration-300 group-hover:brightness-50 w-40 h-60 md:w-64 md:h-96 object-cover"
           />
 
-          <div className="absolute bottom-4 left-9 text-white text-base opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+          <div className="absolute bottom-4 left-4 text-white text-sm md:text-base opacity-0 transition-opacity duration-300 group-hover:opacity-100">
             <div className="font-semibold">Name</div>
             <div className="font-normal">Position</div>
           </div>
