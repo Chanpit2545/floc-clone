@@ -7,7 +7,6 @@ export function Footer() {
   return (
     <div className="bg-gray-100">
       <div className="px-4 md:px-[70px] py-6">
-        {/* Responsive Layout */}
         <div className="flex flex-col md:flex-row justify-between items-start gap-8 md:gap-0">
           <div className="w-full md:w-[288px] text-center md:text-left">
             <img
@@ -81,7 +80,6 @@ export function Footer() {
           </div>
         </div>
 
-        {/* Footer Text */}
         <footer className="text-medium text-violet-400 font-medium text-center md:text-end mt-6 break-words whitespace-normal">
           Copyright © Floc 2024 | All rights reserved.
         </footer>

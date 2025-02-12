@@ -38,7 +38,6 @@ export function Community() {
             </div>
           </div>
 
-          {/* Community picture for mobile */}
           <div className="flex justify-center lg:hidden">
             <img
               src="https://floc.is/_next/image?url=https%3A%2F%2Fassets.floc.is%2Flanding%2Fcommunity%2Fdicut.jpeg&w=1200&q=75"

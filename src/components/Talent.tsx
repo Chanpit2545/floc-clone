@@ -15,22 +15,22 @@ export function Talent() {
             Talents
           </span>
         </div>
-        <ul className="list-image-[url(https://floc.is/_next/static/media/success.e35d86b2.svg)] list-inside pt-4">
+        <ul className="list-image-[url(https://floc.is/_next/static/media/success.e35d86b2.svg)] list-outside pl-16 pt-4 text-left">
           <li className="text-lg md:text-2xl font-semibold md:font-bold">
             Real life professionals
-            <ul className="pl-8 mt-2 space-y-1 list-none text-base md:text-xl font-medium md:font-semibold text-gray-700">
+            <ul className=" mt-2 space-y-1 list-none text-base md:text-xl font-medium md:font-semibold text-gray-700">
               <li>Floc curates talents through invitation only</li>
             </ul>
           </li>
           <li className="text-lg md:text-2xl font-semibold md:font-bold pt-2">
             Variety of skills & styles
-            <ul className="pl-8 mt-2 space-y-1 list-none text-base md:text-xl font-medium md:font-semibold text-gray-700">
+            <ul className=" mt-2 space-y-1 list-none text-base md:text-xl font-medium md:font-semibold text-gray-700">
               <li>From small to big-sized projects, we got your back</li>
             </ul>
           </li>
           <li className="text-lg md:text-2xl font-semibold md:font-bold pt-2">
             Find the right talent for you within 5 mins!
-            <ul className="pl-8 mt-2 space-y-1 list-none text-base md:text-xl font-medium md:font-semibold text-gray-700">
+            <ul className="mt-2 space-y-1 list-none text-base md:text-xl font-medium md:font-semibold text-gray-700">
               <li>
                 Floc selects & recommends the perfect talent for your project
               </li>
