@@ -8,7 +8,7 @@ export function Job() {
           <div className="flex font-bold text-2xl md:text-4xl gap-2 justify-center md:justify-start items-baseline">
             <span>Talent finds the right</span>
             <span className="relative text-blue-700 ml-2">
-              <span className="relative z-10">Job</span>
+              <span className="relative z-0">Job</span>
               <img
                 src="https://floc.is/icons/landing/talent-find-job/underline.svg"
                 alt="Job underline"
