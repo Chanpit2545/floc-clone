@@ -46,7 +46,7 @@ export function Talent() {
           </div>
         </div>
       </div>
-      <div className="w-full flex justify-center mt-8 md:mt-0">
+      <div className="w-full flex justify-center mt-8 md:mt-8">
         <Marquee autoFill gradient gradientWidth={85} direction="right">
           <div className="w-[320px] h-[374px] rounded-xl shadow-lg mx-4">
             <img
