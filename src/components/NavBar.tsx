@@ -30,7 +30,7 @@ export function NavBar() {
       </div>
 
       <div className="w-full mt-4 sm:hidden">
-        <button className="flex items-center justify-center text-blue-800 font-bold text-lg px-5 py-2.5 hover:bg-blue-200 active:bg-blue-300 transition-colors w-full">
+        <button className="flex items-center justify-center bg-blue-200 text-blue-800 font-bold text-lg px-5 py-2.5 hover:underline active:bg-blue-300 transition-colors w-full">
           For business
           <span className="rounded-full text-blue-800 text-3xl md:text-4xl">
             <MdArrowOutward />

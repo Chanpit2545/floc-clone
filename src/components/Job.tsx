@@ -3,9 +3,9 @@ import Marquee from "react-fast-marquee";
 export function Job() {
   return (
     <div className="bg-gray-100">
-      <div className="flex flex-col items-center mt-24 mb-8 mx-4 md:grid md:grid-cols-1 lg:grid-cols-7 xl:grid-cols-2">
+      <div className="flex flex-col items-center mt-12 mb-8 mx-4 md:grid md:grid-cols-1 lg:grid-cols-7 xl:grid-cols-2">
         {/* Text Section */}
-        <div className="text-center md:text-left px-4 md:px-16 xl:col-span-1 lg:col-span-5">
+        <div className="text-center md:text-left px-4 xs:py-12 md:px-16 xl:col-span-1 lg:col-span-5">
           <div className="flex font-bold text-2xl md:text-4xl gap-2 justify-center md:justify-start items-baseline">
             <span>Talent finds the right</span>
             <span className="relative text-blue-700 ml-2">
